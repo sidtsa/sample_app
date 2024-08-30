@@ -11,7 +11,7 @@
     "build": "tsc && vite build",
     "watch": "tsc && vite build --watch",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
   "dependencies": {
