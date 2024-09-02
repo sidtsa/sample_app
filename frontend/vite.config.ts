@@ -7,7 +7,8 @@ export default defineConfig({
     base: "/sample_app/",
     build: {
         // outDir: "..//backend/static",
-        outDir: "..//frontend/static",
+        // outDir: "..//frontend/static",
+        outDir: "..//frontend/build",
         emptyOutDir: true,
         sourcemap: true,
         rollupOptions: {
